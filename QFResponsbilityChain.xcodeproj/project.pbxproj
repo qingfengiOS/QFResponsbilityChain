@@ -14,6 +14,11 @@
 		FD48B59221DE009800A4EDAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD48B59021DE009800A4EDAC /* LaunchScreen.storyboard */; };
 		FD48B59D21DE009800A4EDAC /* QFResponsbilityChainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD48B59C21DE009800A4EDAC /* QFResponsbilityChainTests.swift */; };
 		FD48B5A821DE009800A4EDAC /* QFResponsbilityChainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD48B5A721DE009800A4EDAC /* QFResponsbilityChainUITests.swift */; };
+		FD48B5B621DE011C00A4EDAC /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD48B5B521DE011C00A4EDAC /* Manager.swift */; };
+		FD48B5B821DE020300A4EDAC /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD48B5B721DE020300A4EDAC /* Request.swift */; };
+		FD48B5BA21DE0A7A00A4EDAC /* CommonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD48B5B921DE0A7A00A4EDAC /* CommonManager.swift */; };
+		FD48B5BC21DE0F2100A4EDAC /* Majordomo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD48B5BB21DE0F2100A4EDAC /* Majordomo.swift */; };
+		FD48B5BE21DE0F8200A4EDAC /* President.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD48B5BD21DE0F8200A4EDAC /* President.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		FD48B5A321DE009800A4EDAC /* QFResponsbilityChainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFResponsbilityChainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD48B5A721DE009800A4EDAC /* QFResponsbilityChainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QFResponsbilityChainUITests.swift; sourceTree = "<group>"; };
 		FD48B5A921DE009800A4EDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD48B5B521DE011C00A4EDAC /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		FD48B5B721DE020300A4EDAC /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		FD48B5B921DE0A7A00A4EDAC /* CommonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonManager.swift; sourceTree = "<group>"; };
+		FD48B5BB21DE0F2100A4EDAC /* Majordomo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Majordomo.swift; sourceTree = "<group>"; };
+		FD48B5BD21DE0F8200A4EDAC /* President.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = President.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 			children = (
 				FD48B58721DE009700A4EDAC /* AppDelegate.swift */,
 				FD48B58921DE009700A4EDAC /* ViewController.swift */,
+				FD48B5B721DE020300A4EDAC /* Request.swift */,
+				FD48B5B521DE011C00A4EDAC /* Manager.swift */,
+				FD48B5B921DE0A7A00A4EDAC /* CommonManager.swift */,
+				FD48B5BB21DE0F2100A4EDAC /* Majordomo.swift */,
+				FD48B5BD21DE0F8200A4EDAC /* President.swift */,
 				FD48B58B21DE009700A4EDAC /* Main.storyboard */,
 				FD48B58E21DE009800A4EDAC /* Assets.xcassets */,
 				FD48B59021DE009800A4EDAC /* LaunchScreen.storyboard */,
@@ -256,7 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD48B5BC21DE0F2100A4EDAC /* Majordomo.swift in Sources */,
+				FD48B5BE21DE0F8200A4EDAC /* President.swift in Sources */,
 				FD48B58A21DE009700A4EDAC /* ViewController.swift in Sources */,
+				FD48B5B821DE020300A4EDAC /* Request.swift in Sources */,
+				FD48B5BA21DE0A7A00A4EDAC /* CommonManager.swift in Sources */,
+				FD48B5B621DE011C00A4EDAC /* Manager.swift in Sources */,
 				FD48B58821DE009700A4EDAC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
